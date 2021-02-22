@@ -481,7 +481,7 @@ body {
 .sub_menu {
 	width:250px;
 	/* min-height:150px; */
-	background:#007000; /* muda #c13b3e*/
+	background:#c13b3e; /* muda #c13b3e*/
 }
 .sub_menu li {
 	padding-left:15px;
@@ -496,12 +496,23 @@ body {
     line-height: 22px;
     display: block;
     color: #fff;
-    font-size: 17px; /* muda 18px */
+    font-size: 18px; /* muda 18px */
     font-family: '45 Light', Arial, Helvetica, sans-serif;
     border-bottom: 1px solid #fff;
     /* padding-left: 8px; */
     padding: 8px 0 8px 8px;
 }
+
+.qlik_menu_left_title {
+	font-family:'55 Roman', Arial, Helvetica, sans-serif; 
+	font-size:24px;
+	line-height:50px;
+	color:#007000;
+}
+.qlik_menu_left {
+	background:#007000; /* muda #c13b3e*/
+}
+
 .sub_menu li:last-child a {
 	border-bottom:0px solid #fff;
 }
