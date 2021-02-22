@@ -508,10 +508,31 @@ body {
 	font-size:24px;
 	line-height:50px;
 	color:#007000;
+
 }
 .qlik_menu_left {
 	background:#007000; /* muda #c13b3e*/
 }
+
+.fiserv_menu_left_title {
+	font-family:'55 Roman', Arial, Helvetica, sans-serif; 
+	font-size:24px;
+	line-height:50px;
+	color:#ff8000;
+}
+
+.fiserv_menu_left{
+	background:#ff8000
+	
+}
+
+.cloudify_menu_left_title {
+	font-family:'55 Roman', Arial, Helvetica, sans-serif; 
+	font-size:24px;
+	line-height:50px;
+	color:#007000;
+}
+
 
 .sub_menu li:last-child a {
 	border-bottom:0px solid #fff;
