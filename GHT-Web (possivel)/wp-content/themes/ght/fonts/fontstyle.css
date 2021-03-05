@@ -1,0 +1,88 @@
+@font-face {
+  /* 75 Bold */
+	font-family: '75 Bold';
+	src: url('HelveticaNeueLTStd-Bd.eot') format('eot'), 
+	     url('HelveticaNeueLTStd-Bd.otf')  format('opentype'),
+	     url('HelveticaNeueLTStd-Bd.woff') format('woff'), 
+	     url('HelveticaNeueLTStd-Bd.ttf')  format('truetype'),
+	     url('HelveticaNeueLTStd-Bd.svg#HelveticaNeueLTStd-Bd') format('svg');
+}
+
+
+@font-face {
+  /* 45 Light */
+	font-family: '45 Light';
+	src: url('HelveticaNeueLTStd-Lt.eot') format('eot'), 
+	     url('HelveticaNeueLTStd-Lt.otf')  format('opentype'),
+	     url('HelveticaNeueLTStd-Lt.woff') format('woff'), 
+	     url('HelveticaNeueLTStd-Lt.ttf')  format('truetype'),
+	     url('HelveticaNeueLTStd-Lt.svg#HelveticaNeueLTStd-Lt') format('svg');
+}
+
+
+@font-face {
+  /* 65 Medium */
+	font-family: '65 Medium';
+	src: url('HelveticaNeueLTStd-Md.eot') format('eot'), 
+	     url('HelveticaNeueLTStd-Md.otf')  format('opentype'),
+	     url('HelveticaNeueLTStd-Md.woff') format('woff'), 
+	     url('HelveticaNeueLTStd-Md.ttf')  format('truetype'),
+	     url('HelveticaNeueLTStd-Md.svg#HelveticaNeueLTStd-Md') format('svg');
+}
+
+
+@font-face {
+  /* 55 Roman */
+	font-family: '55 Roman';
+	src: url('HelveticaNeueLTStd-Romand41d.eot?') format('eot'), 
+	     url('HelveticaNeueLTStd-Roman.otf')  format('opentype'),
+	     url('HelveticaNeueLTStd-Roman.woff') format('woff'), 
+	     url('HelveticaNeueLTStd-Roman.ttf')  format('truetype'),
+	     url('HelveticaNeueLTStd-Roman.svg#HelveticaNeueLTStd-Roman') format('svg');
+}
+
+
+
+
+
+@font-face {
+    font-family: 'newjuneboldregular';
+    src: url('newjune-bold-webfont.eot');
+    src: url('newjune-bold-webfontd41d.eot?#iefix') format('embedded-opentype'),
+         url('newjune-bold-webfont.woff') format('woff'),
+         url('newjune-bold-webfont.ttf') format('truetype'),
+         url('newjune-bold-webfont.svg#newjuneboldregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'newjunebookregular';
+    src: url('newjune-book-webfont.eot');
+    src: url('newjune-book-webfontd41d.eot?#iefix') format('embedded-opentype'),
+         url('newjune-book-webfont.woff') format('woff'),
+         url('newjune-book-webfont.ttf') format('truetype'),
+         url('newjune-book-webfont.svg#newjunebookregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'newjuneregularregular';
+    src: url('newjune-regular-webfont.eot');
+    src: url('newjune-regular-webfontd41d.eot?#iefix') format('embedded-opentype'),
+         url('newjune-regular-webfont.woff') format('woff'),
+         url('newjune-regular-webfont.ttf') format('truetype'),
+         url('newjune-regular-webfont.svg#newjuneregularregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
