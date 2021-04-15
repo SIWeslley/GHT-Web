@@ -81,12 +81,6 @@ ul {
 }
 .block {
 	display:block;
-	
-}
-.logo{ /* criação de uma classe para modificar o logo inicial*/
-	height: 79px; /* muda adiciona*/
-    margin-top: 8px; /* muda adiciona*/
-	
 }
 .hide {
 	display:none;
@@ -137,11 +131,11 @@ body {
 	position:relative;
 }
 #header_wrapper {
-	height:78px;
+	height:98px;
 	background:url(images/header_bg.png) repeat;
-	border-bottom:1px solid #ba0407;
+	border-bottom:16px solid #ba0407;
 	border-top:12px solid #ba0407;
-	padding:2px 0px 19px 0px;
+	padding:22px 0px 19px 0px;
 	position:absolute;
 	left:0;
 	top:0;
@@ -481,7 +475,7 @@ body {
 .sub_menu {
 	width:250px;
 	/* min-height:150px; */
-	background:#c13b3e; /* muda #c13b3e*/
+	background:#c13b3e;
 }
 .sub_menu li {
 	padding-left:15px;
@@ -496,43 +490,12 @@ body {
     line-height: 22px;
     display: block;
     color: #fff;
-    font-size: 18px; /* muda 18px */
+    font-size: 18px;
     font-family: '45 Light', Arial, Helvetica, sans-serif;
     border-bottom: 1px solid #fff;
     /* padding-left: 8px; */
     padding: 8px 0 8px 8px;
 }
-
-.qlik_menu_left_title {
-	font-family:'55 Roman', Arial, Helvetica, sans-serif; 
-	font-size:24px;
-	line-height:50px;
-	color:#007000;
-
-}
-.qlik_menu_left {
-	background:#007000; /* muda #c13b3e*/
-}
-
-.fiserv_menu_left_title {
-	font-family:'55 Roman', Arial, Helvetica, sans-serif; 
-	font-size:24px;
-	line-height:50px;
-	color:#ff8000;
-}
-
-.fiserv_menu_left{
-	background:#ff8000
-}
-
-.cloudify_menu_left_title {
-	font-family:'55 Roman', Arial, Helvetica, sans-serif; 
-	font-size:24px;
-	line-height:50px;
-	color:#007000;
-}
-
-
 .sub_menu li:last-child a {
 	border-bottom:0px solid #fff;
 }
@@ -667,7 +630,7 @@ ul.list-posts li.case-item:last-child{
 	background:#3e3e3e url(images/footer_bg.png) 0px 5px repeat-x;
 	position:relative;
 	padding-top:36px;
-	height:295px; /*205 muda*/
+	height:205px;
 	border: px solid #000;
 }
 #footer_wrapper .TopRedBorder {
@@ -742,10 +705,9 @@ ul.list-posts li.case-item:last-child{
 }
 
 #CopyRight_wrapper {
-	height:80px;
-	padding-top:18px; /*18px muda*/
+	height:40px;
+	padding-top:18px;
 	background:url(images/copy_right_bg.png) repeat-x;
-	background-position-y: bottom; /*adiciona muda*/
 	width:100%;
 }
 .CopyRight {
