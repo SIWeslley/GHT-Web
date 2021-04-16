@@ -481,12 +481,22 @@ body {
 	padding-left:15px;
 	padding-right:8px;
 }
-.sub_menu li {
+.sub_menu li{
 	padding-left:15px;
 	padding-right:8px;
-	border-left: solid #fff 4px;
-	border-style: double;
 }
+
+.sub_menu li ul{
+	border-left: 5px solid #ffff;
+	
+}
+
+.sub_menu li ul ul {
+	border-left: none;
+}
+
+
+
 .sub_menu li a {
     /* height: 36px; */
     line-height: 22px;
@@ -498,6 +508,15 @@ body {
     /* padding-left: 8px; */
     padding: 8px 0 8px 8px;
 }
+/*
+.sub_menu ul {	
+	border:2px solid #ffff;
+}
+.sub_menu ul:first-child {	
+	border:none;
+	padding-bottom:6px;
+	padding-top:6px;
+}*/
 
 
 .sub_menu li:last-child a:last-child { /* adicionei 'last-child' ao 'a'*/
