@@ -670,7 +670,7 @@ ul.list-posts li.case-item:last-child{
 #footer {
 	height:160px;
 	width:1170px;
-	margin:0px auto;
+	margin:-165px auto;
 }
 #footer h3 {
 	color:#c8c8c8;
