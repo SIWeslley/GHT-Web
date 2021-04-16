@@ -484,6 +484,7 @@ body {
 .sub_menu li {
 	padding-left:15px;
 	padding-right:8px;
+/*	border-left: solid #fff 5px;*/
 }
 .sub_menu li a {
     /* height: 36px; */
@@ -497,7 +498,7 @@ body {
     padding: 8px 0 8px 8px;
 }
 .sub_menu li:last-child a {
-	border-bottom:0px solid #fff;
+	border-bottom:0px solid #fff; /*remover isso impede de eliminar a ultima linha do menu lateral*/
 }
 .sub_menu li.current-menu-item {
 	background:url(images/sub_menu_arrow.png) 5px 14px no-repeat;
