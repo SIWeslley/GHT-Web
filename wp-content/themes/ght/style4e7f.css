@@ -734,12 +734,12 @@ ul.list-posts li.case-item:last-child{
 	text-align:right;
 }
 .address span {
-	font-size:18px;
+	font-size:15px; /*18px original*/
 }
 
 #CopyRight_wrapper {
 	height:40px;
-	padding-top:18px;
+	padding-top:300px;
 	background:url(images/copy_right_bg.png) repeat-x;
 	width:100%;
 }
