@@ -486,9 +486,9 @@ body {
 	padding-right:8px;
 }
 /***************************************************/
-/*
+
 .sub_menu li ul{
-	border-left: 5px solid #ffff;
+	border-left: 4px solid #ffff;
 }
 
 .sub_menu li ul ul {
@@ -499,7 +499,7 @@ body {
 	padding-bottom:6px;
 	padding-top:6px;
 }
-*/
+
 /***************************************************/
 .sub_menu li a {
     /* height: 36px; */
@@ -511,9 +511,9 @@ body {
     /*border-bottom: 1px solid #fff;*/
     /* padding-left: 8px; */
     padding: 8px 0 8px 8px;
-}
+}*/
 /***************************************************/
-.sub_menu ul {	
+/*.sub_menu ul {	
 	border:2px solid #ffff;
 }
 .sub_menu li ul ul {
