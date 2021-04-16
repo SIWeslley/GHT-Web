@@ -485,7 +485,8 @@ body {
 	padding-left:15px;
 	padding-right:8px;
 }
-
+/***************************************************/
+/*
 .sub_menu li ul{
 	border-left: 5px solid #ffff;
 	
@@ -494,9 +495,8 @@ body {
 .sub_menu li ul ul {
 	border-left: none;
 }
-
-
-
+*/
+/***************************************************/
 .sub_menu li a {
     /* height: 36px; */
     line-height: 22px;
@@ -508,16 +508,19 @@ body {
     /* padding-left: 8px; */
     padding: 8px 0 8px 8px;
 }
-/*
+/***************************************************/
 .sub_menu ul {	
 	border:2px solid #ffff;
+}
+.sub_menu li ul ul {
+	border:none;
 }
 .sub_menu ul:first-child {	
 	border:none;
 	padding-bottom:6px;
 	padding-top:6px;
-}*/
-
+}
+/**************************************************/
 
 .sub_menu li:last-child a:last-child { /* adicionei 'last-child' ao 'a'*/
 	border-bottom:0px solid #fff; /*remover isso impede de eliminar a ultima linha do menu lateral*/
@@ -653,7 +656,7 @@ ul.list-posts li.case-item:last-child{
 	background:#3e3e3e url(images/footer_bg.png) 0px 5px repeat-x;
 	position:relative;
 	padding-top:210px;
-	height:205px;
+	height:220px;
 	border: px solid #000;
 }
 #footer_wrapper .TopRedBorder {
@@ -699,9 +702,12 @@ ul.list-posts li.case-item:last-child{
 	padding-left:10px;
 	display:block;
 }
-#footer nav ul li:last-child a {
+#footer nav ul li a { /*removi last-child do componente li*/
 	background:none;
 }
+/*#footer nav ul li:last-child a { /*removi last-child do componente li ORIGINAL*/ 
+	background:none;
+}*/
 .twitter {
 	margin-left:20px;
 	font-family: '55 Roman', Arial, Helvetica, sans-serif;
