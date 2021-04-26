@@ -665,8 +665,8 @@ ul.list-posts li.case-item:last-child{
 	width:100%;
 	background:#3e3e3e url(images/footer_bg.png) 0px 5px repeat-x;
 	position:relative;
-	padding-top:188px;
-	height:83px;
+	padding-top:220px;
+	height:60px; /*tamanho do background escuro do rodapé*/
 	border: px solid #000;
 }
 #footer_wrapper .TopRedBorder {
@@ -678,9 +678,9 @@ ul.list-posts li.case-item:last-child{
 	top:5px;
 }
 #footer {
-	height:140px;
+	height:60px; /**/
 	width:1170px;
-	margin:-151px auto;
+	margin:-131px auto;
 }
 #footer h3 {
 	color:#c8c8c8;
@@ -692,9 +692,10 @@ ul.list-posts li.case-item:last-child{
 	padding-left:2px;
 	margin:0!important;
 }
-#footer nav {
+#footer nav { /*Bloco onde fica o texto dentro do rodapé*/
 	width:252px;
 	float:left;
+	margin-top:-55px;
 }
 #footer nav ul {}
 #footer nav ul li {
@@ -740,7 +741,7 @@ footer nav{
 	font-family: '65 Medium', Arial, Helvetica, sans-serif;
 	font-size:13px;
 	color:#8d8d8d;
-	padding-top:45px;
+	/*padding-top:45px;*/
 	line-height:18px;
 	text-align:right;
 }
@@ -749,9 +750,10 @@ footer nav{
 }
 
 #CopyRight_wrapper {
-	height:50px;
-	padding-top:195px;
-	background:url(images/copy_right_bg.png) repeat-x;
+	height:40px;
+	padding-top:194px;
+	margin-top:10px;
+	background:url(images/copy_right_bg.png) repeat-x, url(images/copy_right_bg_red.png) bottom 65px left  repeat-x;
 	width:100%;
 }
 .CopyRight {
@@ -761,6 +763,10 @@ footer nav{
 	font-family: '65 Medium', Arial, Helvetica, sans-serif;
 	font-size:12px;
 	line-height:18px;
+}
+.CopyRight p{ /*modifica as letras copyright*/
+	margin-top:-18px;
+	
 }
 .solucoes_wrapper.three_col .col_1 {
 	width:390px !important;
