@@ -717,7 +717,8 @@ ul.list-posts li.case-item:last-child{
 }
 
 footer nav{
-	margin-right:80px;
+	margin-right:50px;
+	padding-right:50px;
 }
 
 /*#footer nav ul li:last-child a { /*removi last-child do componente li ORIGINAL*/ 
