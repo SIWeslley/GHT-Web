@@ -57,6 +57,9 @@ a:hover, a:active, a:focus {
 a img, input, button, textarea, img{
 	border:none;
 }
+section.right a img.block { /*logo inferior direito*/
+	margin-top:-18px;
+}
  button {
 	cursor:pointer;
 	
@@ -493,7 +496,9 @@ body {
 /***************************************************/
 
 .sub_menu li ul{
-	border-left: 4px solid #ffff;
+	border-left:4px solid #ffff;
+	padding-bottom:5px;
+	padding-top:5px;
 }
 
 .sub_menu li ul ul {
@@ -501,8 +506,8 @@ body {
 }
 
 .sub_menu ul:first-child {	
-	padding-bottom:6px;
-	padding-top:6px;
+	padding-bottom:8px;
+	padding-top:2px;
 }
 
 /***************************************************/
@@ -663,19 +668,19 @@ ul.list-posts li.case-item:last-child{
 }
 #footer_wrapper {
 	width:100%;
-	background:#3e3e3e url(images/footer_bg.png) 0px 5px repeat-x;
+	background:#3e3e3e url(images/footer_bg.png) 0px 5px repeat-x; /* tem a propria linha vermelha*/
 	position:relative;
-	padding-top:220px;
-	height:60px; /*tamanho do background escuro do rodapé*/
-	border: px solid #000;
+	padding-top:215px;
+	height:30px; /*tamanho do background escuro do rodapé*/
+	border: 0px solid #000;
 }
 #footer_wrapper .TopRedBorder {
-	background:url(images/footer_red_border.png) center top no-repeat;
+	background:url(images/footer_red_border2.png) center top no-repeat;
 	height:31px;
 	width:100%;
 	position:absolute;
 	left:0px;
-	top:5px;
+	top:7px;
 }
 #footer {
 	height:60px; /**/
@@ -701,6 +706,7 @@ ul.list-posts li.case-item:last-child{
 #footer nav ul li {
 	background:url(images/footer_arrow.png) left 3px no-repeat;
 	padding-left:8px; /*original 2px */
+	width:300px; /*Aumenta o limite de palavras item*/
 }
 #footer nav ul li a {
 	height:18px;
@@ -744,16 +750,17 @@ footer nav{
 	/*padding-top:45px;*/
 	line-height:18px;
 	text-align:right;
+	margin-top:-12px;
 }
 .address span {
 	font-size:13px; /*18px original*/
 }
 
 #CopyRight_wrapper {
-	height:40px;
+	height:15px;
 	padding-top:194px;
-	margin-top:10px;
-	background:url(images/copy_right_bg.png) repeat-x, url(images/copy_right_bg_red.png) bottom 65px left  repeat-x;
+	margin-top:8px;
+	background:url(images/copy_right_bg.png) repeat-x, url(images/copy_right_bg_red.png) bottom 40px left  repeat-x;
 	width:100%;
 }
 .CopyRight {
@@ -766,8 +773,8 @@ footer nav{
 }
 .CopyRight p{ /*modifica as letras copyright*/
 	margin-top:-18px;
-	
 }
+
 .solucoes_wrapper.three_col .col_1 {
 	width:390px !important;
 }
@@ -810,3 +817,8 @@ http://wordpress.org/extend/plugins/wp-pagenavi/
 	background-color: #a41d2a;
 	border: 1px solid #a41d2a;
 }
+
+.right section{
+	margin-bottom:20px;
+}
+
