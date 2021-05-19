@@ -103,7 +103,7 @@ html, body {
 h1, h2, h3, h4, h5, h6 { 
 	font-family: '45 Light', Arial, Helvetica, sans-serif;
 	text-rendering: optimizeLegibility; 
-	color: #a41d2a;
+	color: #c70000;
 	margin-bottom: 8px; 
 	margin-top: 8px;
 }
@@ -378,7 +378,7 @@ body {
 .cat_title {
 	font-family: '45 Light', Arial, Helvetica, sans-serif;
 	font-size:20px;
-	color:#a41d2a;
+	color:##c70000;
 	background:url(images/cat_title.png) left center no-repeat;
 	padding-left:12px;
 	margin-top:15px;
