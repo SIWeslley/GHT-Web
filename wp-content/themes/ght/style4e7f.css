@@ -295,7 +295,7 @@ body {
 	border-bottom: 4px solid #fff;
 	text-align:right;
 	font-family: '65 Medium', Arial, Helvetica, sans-serif;
-	font-size:30px;
+	font-size:21px;
 	float:right;
 	color:#fff;
 	font-weight:normal !important;
@@ -305,8 +305,8 @@ body {
 #slider li .slider_content p {
 	line-height:30px;
 	color:#fff;
-	font-size:19px;
-	width:410px;
+	font-size:17px;
+	width:400px;
 	text-align:right;
 	font-family: 'newjuneboldregular', Arial, Helvetica, sans-serif;
 	float:right;
@@ -508,6 +508,11 @@ body {
 .sub_menu ul:first-child {	
 	padding-bottom:8px;
 	padding-top:2px;
+}
+
+.sub_menu ul:first-child{
+	background-image: url(Q.png);
+	background-repeat: no-repeat;
 }
 
 /***************************************************/
