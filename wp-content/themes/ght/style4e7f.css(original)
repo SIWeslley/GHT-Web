@@ -439,11 +439,11 @@ body {
 
 div.inner p {
 height:80px;
-width:345px;
+width:315px;
 }
 
 div.inner h1.cat_title{
-width:400px;
+width:370px;
 }
 
 .page-inner{
@@ -558,18 +558,20 @@ width:400px;
 	background:url(images/sub_menu_arrow.png) 5px 14px no-repeat;
 }*/
 
-.sub_menu ul.sub-menu li.current-menu-item {
-	background:url(images/sub_menu_arrow.png) 5px 14px no-repeat;
-}
-/*</MUDEI*/
-.sub_menu ul.sub-menu li.current-menu-item a {
+/*.sub_menu li.current-menu-item a {
 	font-family: '75 Bold', Arial, Helvetica, sans-serif;
+}*/
+
+/**NOVO**/
+nav.sub_menu ul.sub-menu li.current-menu-item {
+background:url(images/sub_menu_arrow.png) 5px 14px no-repeat;
 }
 
-.sf-menu li.current-menu-item > a:first-child {
-	font-family: '75 Bold', Arial, Helvetica, sans-serif;
+ul.sub-menu li.current-menu-item a {
+font-family: '75 Bold', Arial, Helvetica, sans-serif;
 }
-/*MUDEI/>*/
+/**NOVO***/
+
 .page_title {
 	font-family: '55 Roman', Arial, Helvetica, sans-serif;
 	font-size:24px;

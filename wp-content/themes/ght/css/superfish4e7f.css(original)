@@ -3,7 +3,6 @@
 	margin: 0;
 	padding: 0;
 	list-style: none;
-	margin-right:10px;
 }
 .sf-menu li {
 	position: relative;
@@ -65,20 +64,8 @@
 .sf-menu li:last-child {
 	margin-right:0px;
 }
-/*.sf-menu li.current-menu-item a, .sf-menu li.current-menu-parent a{
-	border-top: 2px solid #FFF; /* fallback colour must use full shorthand */
-	/*border-top: 2px solid rgba(255,255,255,1);
-	border-bottom: 2px solid #FFF; /* fallback colour must use full shorthand */
-/*	border-bottom: 2px solid rgba(255,255,255,1);
-	font-family: '75 Bold', Arial, Helvetica, sans-serif;
-	padding: .15em .30em .15em .30em;
-}
-*/
-.sf-menu li.current-menu-item > a:first-child {
-	font-family: '75 Bold', Arial, Helvetica, sans-serif;
-}
 
-.sf-menu li.current-menu-ancestor > a:first-child, .sf-menu li.current-menu-item > a:first-child{
+.sf-menu li.current-menu-item a, .sf-menu li.current-menu-parent a{
 	border-top: 2px solid #FFF; /* fallback colour must use full shorthand */
 	border-top: 2px solid rgba(255,255,255,1);
 	border-bottom: 2px solid #FFF; /* fallback colour must use full shorthand */
@@ -86,7 +73,9 @@
 	font-family: '75 Bold', Arial, Helvetica, sans-serif;
 	padding: .15em .30em .15em .30em;
 }
-.sf-menu ul li {
+
+
+.sf-menu ul li { /**espaço entre as soluções navigator menu*/
 	background: #C13B3E;
 	border-bottom:1px solid #FFF;
 	margin-right:0px;
@@ -98,14 +87,12 @@
 .sf-menu ul li:last-child {
 	border-bottom:none;
 }
-
-/*
 .sf-menu li.current-menu-item ul li a, .sf-menu li.current-menu-parent ul li a{
 	border-top: none;
 	border-bottom:none;
 	font-family: '55 Roman', Arial, Helvetica, sans-serif;
 	padding: .45em 1em!important;
-}*/
+}
 .sf-menu ul ul li {
 	background: #C13B3E;
 }
