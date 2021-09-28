@@ -121,7 +121,8 @@
 /*2/>*/
 
 .sf-menu ul ul li {
-	background: #C13B3E;
+	/*background: #C13B3E;*/
+	background: #ce3439;
 }
 .sf-menu ul li:hover,
 .sf-menu ul li.sfHover {
