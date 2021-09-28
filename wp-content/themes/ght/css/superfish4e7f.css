@@ -154,5 +154,5 @@
 	border-left: none;
 }
 .sf-menu li.current-menu-ancestor ul.sub-menu li.current-menu-parent ul.sub-menu li:last-child{
-	border-bottom: 4px solid white;
+	border-bottom: 3px solid white;
 }
