@@ -77,7 +77,7 @@
 .sf-menu ul li{
 	border-left:1px solid white;
 	border-right:1px solid white;
-	border-top:1px solid white;	
+	border-top:none;	
 }
 
 .sf-menu ul li:first-child{
