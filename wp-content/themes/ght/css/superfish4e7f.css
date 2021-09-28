@@ -109,10 +109,10 @@
 	border-left:1px solid white;
 }
 .sf-menu ul li.current-menu-parent li:first-child{
-	border-top: 2px solid white;
+	border-top: 3px solid white;
 }
 .sf-menu li.current-menu-parent:first-child{
-	border-top: 2px solid white;
+	border-top: 3px solid white;
 }
 /*2/>*/
 
@@ -132,11 +132,11 @@
 }
 
 .sf-menu ul li.current-menu-item ul {
-	margin-top:	-2px;
+	margin-top:	-3px;
 }
 
 .sf-menu li ul li.current-menu-parent:first-child ul {
-	margin-top:-2px;
+	margin-top:-3px;
 }
 /*MARGIN*/
 
