@@ -59,7 +59,7 @@
 	*white-space: normal; /* ...unless you support IE7 (let it wrap) */
 	-webkit-transition: background .2s;
 	transition: background .2s;
-	margin-right:50px; /*mudei 12px*/
+	margin-right:70px; /*mudei 12px*/
 }
 .sf-menu li:last-child { /*Fixa Contato*/
 	margin-right:0px;
