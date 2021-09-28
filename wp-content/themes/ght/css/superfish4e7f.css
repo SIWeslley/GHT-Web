@@ -82,7 +82,7 @@
 
 .sf-menu ul li:first-child{
 	border-left:none;
-	border-top:1px solid white;	
+	border-top:1px solid white;
 }
 
 /*1/>*/
@@ -100,9 +100,9 @@
 .sf-menu ul li a {
 	text-transform: none;
 }
-.sf-menu ul li:last-child {
+/*.sf-menu ul li:last-child {
 	border-bottom:none;
-}
+}*/
 
 /*2*/
 .sf-menu ul li:first-child.menu-item-has-children {
@@ -110,6 +110,7 @@
 }
 .sf-menu ul li.current-menu-parent li:first-child{
 	border-top: 3px solid white;
+	border-bottom: 3px solid white;
 }
 .sf-menu li.current-menu-parent:first-child{
 	border-top: 3px solid white;
