@@ -99,7 +99,7 @@
 	text-transform: none;
 }
 .sf-menu ul li.current-menu-item {
-	background: #C13B3E;
+	background: #711e20;
 }
 .sf-menu ul li a {
 	text-transform: none;
@@ -123,11 +123,11 @@
 
 .sf-menu ul ul li {
 	/*background: #C13B3E;*/
-	background: #ce3439;
+	background: #C13B3E;
 }
 .sf-menu ul li:hover,
-.sf-menu ul li.sfHover {
-	background: #C13B3E;
+.sf-menu ul li.sfHover, .sf-menu ul li.current-menu-parent { /*ON Mouse*/
+	background: #711e20;
 	/* only transition out, not in */
 	-webkit-transition: none;
 	transition: none;
