@@ -145,7 +145,10 @@
 .sf-menu li ul li.current-menu-parent ul.sub-menu li.current-menu-item, .sf-menu li ul li.current-menu-parent{
 	background:#411e20;
 }
-.sf-menu li ul li.current-menu-parent ul li:hover{
+/*.sf-menu li ul li.current-menu-parent ul li:hover{
+	background:#411e20;
+}*/
+.sf-menu li ul li ul.sub-menu li:hover{
 	background:#411e20;
 }
 
