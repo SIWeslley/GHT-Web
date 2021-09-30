@@ -65,6 +65,10 @@
 	margin-right:0px;
 }
 
+.sf-menu li.current_page-item{
+	background: yellow;
+}
+
 .sf-menu li.current-menu-ancestor > a:first-child, .sf-menu li.current-menu-item > a:first-child{
 	font-family: '75 Bold', Arial, Helvetica, sans-serif;
 	padding-left: .30em;
@@ -88,8 +92,8 @@
 
 /*1/>*/
 .sf-menu li.current-menu-ancestor, .sf-menu li.current-menu-item{
-	border-top: 3px solid white;
-	border-bottom: 3px solid white;
+	border-top: 1px solid white;
+	border-bottom: 2px solid white;
 }
 
 .sf-menu ul li {
@@ -98,6 +102,7 @@
 	margin-right:0px;
 	text-transform: none;
 }
+
 /*.sf-menu ul li.current-menu-item {
 	/*background: #711e20;*/
 	/*background:#411e20;
@@ -115,12 +120,13 @@
 	border-left:1px solid white;
 }
 .sf-menu ul li.current-menu-parent li:first-child{
-	border-top: 3px solid white;
+	border-top: 2px solid white;
 }
 .sf-menu li.current-menu-parent:first-child{
-	border-top: 3px solid white;
+	border-top: 2px solid white;
 }
 /*2/>*/
+
 
 .sf-menu ul ul li {
 	background: #C13B3E;
@@ -158,17 +164,17 @@
 }
 
 .sf-menu ul li.current-menu-item ul {
-	margin-top:	-3px;
+	margin-top:	-2px;
 }
 
 .sf-menu li ul li.current-menu-parent:first-child ul {
-	margin-top:-3px;
+	margin-top:-2px;
 }
 /*MARGIN*/
 
 .sf-menu li.current-menu-ancestor ul.sub-menu li.current-menu-parent ul.sub-menu li{
-	border-left: 4px solid white;
-	border-right: 4px solid white;
+	border-left: 2px solid white;
+	border-right:2px solid white;
 }
 
 .sf-menu li.current-menu-ancestor ul.sub-menu li.current-menu-parent ul.sub-menu li:first-child{
@@ -176,5 +182,9 @@
 }
 
 .sf-menu li.current-menu-ancestor ul.sub-menu li.current-menu-parent ul.sub-menu li:last-child{
+	border-bottom: 2px solid white;
+}
+.sf-menu li.current-page-ancestor, .sf-menu > li.current-menu-item{
+	border-top: 3px solid white;
 	border-bottom: 3px solid white;
 }
