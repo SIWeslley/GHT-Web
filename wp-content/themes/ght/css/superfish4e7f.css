@@ -145,8 +145,8 @@
 .sf-menu li ul li.current-menu-parent ul.sub-menu li.current-menu-item, .sf-menu li ul li.current-menu-parent{
 	background:#411e20;
 }
-.sf-menu li ul li ul li.sfHover{
-	background:yellow;
+.sf-menu li ul li.current-menu-parent ul li:hover{
+	background:#411e20;
 }
 
 /*MARGIN*/
