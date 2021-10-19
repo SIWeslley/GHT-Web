@@ -188,3 +188,16 @@
 	border-top: 3px solid white;
 	border-bottom: 3px solid white;
 }
+
+@keyframes highlight {
+    0% {
+        background: red
+    }
+    100% {
+        background: none;
+    }
+}
+
+#eExtratos:target, #eFaturas:target, #doc2go:target, #eReports:target {
+    animation: highlight 5s;
+}	
