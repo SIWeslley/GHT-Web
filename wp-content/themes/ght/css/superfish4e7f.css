@@ -191,7 +191,7 @@
 
 @keyframes highlight {
     0% {
-        background: red
+        background: #903937
     }
     100% {
         background: none;
