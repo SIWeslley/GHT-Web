@@ -495,7 +495,8 @@ width:400px;
 .sub_menu {
 	width:250px;
 	/* min-height:150px; */
-	background:#c13b3e;
+	//background:#c13b3e;
+	background:#a20e1e;
 }
 .sub_menu li {
 	padding-left:15px;
