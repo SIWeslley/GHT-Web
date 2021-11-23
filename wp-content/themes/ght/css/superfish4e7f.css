@@ -201,3 +201,7 @@
 #eExtratos:target, #eFaturas:target, #doc2go:target, #eReports:target {
     animation: highlight 4s;
 }	
+#header_wrapper{
+	position: fixed;
+	top:0;
+}
