@@ -98,6 +98,8 @@ ul {
 }
 html, body {
 	height: 100%;
+	--top-spacing: 200px;
+	scroll-padding-top: var(--top-spacing);
 }
 
 h1, h2, h3, h4, h5, h6 { 
