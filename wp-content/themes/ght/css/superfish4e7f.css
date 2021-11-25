@@ -189,20 +189,37 @@
 	border-top: 3px solid white;
 	border-bottom: 3px solid white;
 }
-#navigation{
-	/*position: fixed;
-	margin-left:250px;
-	background:#ba0407;
-	padding-left:50px;
-	padding-top:90px;
-	top:0;*/
-	/*position: fixed;
-	margin-left:250px;
-	background:#ba0407;*/
-}
-
 #header_wrapper{
 	position: fixed;
 	top:0;
 }
 
+
+#extratos:target, #faturas:target, #doc2go:target, #reports:target, h1.cat_title {
+    animation: highlight 2s;
+}
+
+img.block.right {
+	animation: slideToLeft 1s;
+}
+
+@keyframes highlight {
+    0% {
+        background: #903937;
+		transform: translateX(8%);
+    }
+    100% {
+        background: none;
+		transform: translateX(0%);
+    }
+}
+
+@keyframes slideToLeft {
+  from {
+    transform: translateX(50%);
+  }
+
+  to {
+    transform: translateX(0%);
+  }
+}
