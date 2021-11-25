@@ -198,7 +198,7 @@ h1.cat_title {
 	animation: slideToRight 1s;
 }
 
-#extratos:target, #faturas:target, #doc2go:target, #reports:target{
+#eExtratos:target, #eFaturas:target, #doc2go:target, #eReports:target{
     animation: highlight 2s;
 }
 
