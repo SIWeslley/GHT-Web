@@ -99,7 +99,7 @@ ul {
 }
 html, body {
 	height: 100%;
-	--top-spacing: 200px;
+	--top-spacing: 180px;
 	scroll-padding-top: var(--top-spacing);
 }
 
