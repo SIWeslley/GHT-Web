@@ -99,7 +99,7 @@ ul {
 }
 html, body {
 	height: 100%;
-	--top-spacing: 180px;
+	--top-spacing: 170px;
 	scroll-padding-top: var(--top-spacing);
 }
 
@@ -142,7 +142,7 @@ body {
 	position:relative;
 }
 #header_wrapper {
-	height:80px;
+	height:70px;
 	background:url(images/header_bg.png) repeat;
 	border-bottom:16px solid #a20e1e;
 	border-top:12px solid #a20e1e;
@@ -186,7 +186,7 @@ body {
 	width:151px;
 	height:21px;
 	padding: 5px 15px 5px 11px;
-	margin:16px 0px 22px 0px;
+	margin:10px 0px 22px 0px;
 	z-index:10;
 	position:relative;
 }
