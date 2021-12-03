@@ -496,7 +496,7 @@ width:400px;
 	
 }
 .sub_menu {
-	width:250px;
+	width:230px;
 	/* min-height:150px; */
 	//background:#c13b3e;
 	//background:#a20e1e;
@@ -540,7 +540,7 @@ width:400px;
     line-height: 22px;
     display: block;
     color: #fff;
-    font-size: 17px;
+    font-size: 16px;
     font-family: '45 Light', Arial, Helvetica, sans-serif;
     /*border-bottom: 1px solid #fff;*/
     /* padding-left: 8px; */
