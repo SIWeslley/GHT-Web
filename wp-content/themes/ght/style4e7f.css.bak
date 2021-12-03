@@ -501,7 +501,8 @@ width:400px;
 	//background:#c13b3e;
 	//background:#a20e1e;
 	//background:#ce0000;
-	background:#ba0407;
+	//background:#ba0407;
+	background:#ec2b00;
 }
 .sub_menu li {
 	padding-left:15px;
@@ -514,7 +515,7 @@ width:400px;
 /***************************************************/
 
 .sub_menu li ul{
-	border-left:4px solid #ffff;
+	border-left:2px solid #ffff;
 	padding-bottom:5px;
 	padding-top:5px;
 }
@@ -539,7 +540,7 @@ width:400px;
     line-height: 22px;
     display: block;
     color: #fff;
-    font-size: 18px;
+    font-size: 17px;
     font-family: '45 Light', Arial, Helvetica, sans-serif;
     /*border-bottom: 1px solid #fff;*/
     /* padding-left: 8px; */
