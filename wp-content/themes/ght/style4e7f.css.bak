@@ -163,7 +163,7 @@ body {
 }
 .BottomRedBorder {
 	background:url(images/header_bottom_border.png) center top no-repeat;
-	height:35px;
+	height:38px;
 	width:100%;
 	position:absolute;
 	left:0px;
@@ -496,13 +496,16 @@ width:400px;
 	
 }
 .sub_menu {
-	width:230px;
+	width:220px;
 	/* min-height:150px; */
 	//background:#c13b3e;
 	//background:#a20e1e;
 	//background:#ce0000;
 	//background:#ba0407;
-	background:#ec2b00;
+	//background:#ec2b00;
+	background:#ec4700;
+	border-radius: 10px;
+	border: 6px outset #fff;
 }
 .sub_menu li {
 	padding-left:15px;
@@ -540,7 +543,7 @@ width:400px;
     line-height: 22px;
     display: block;
     color: #fff;
-    font-size: 16px;
+    font-size: 15px;
     font-family: '45 Light', Arial, Helvetica, sans-serif;
     /*border-bottom: 1px solid #fff;*/
     /* padding-left: 8px; */
@@ -584,6 +587,7 @@ width:400px;
 	font-size:24px;
 	line-height:50px;
 	color:#a41d2a;
+	margin-left:29px;
 }
 .red_box {
 	background:#c13b3e;
