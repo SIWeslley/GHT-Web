@@ -144,7 +144,7 @@ body {
 #header_wrapper {
 	height:70px;
 	background:url(images/header_bg.png) repeat;
-	border-bottom:16px solid #a20e1e;
+	border-bottom:14px solid #a20e1e;
 	border-top:12px solid #a20e1e;
 	padding:12px 0px 19px 0px;
 	/*position:absolute;*/
@@ -163,11 +163,11 @@ body {
 }
 .BottomRedBorder {
 	background:url(images/header_bottom_border.png) center top no-repeat;
-	height:35px;
+	height:33px;
 	width:100%;
 	position:absolute;
 	left:0px;
-	bottom:-16px;
+	bottom:-15px;
 }
 #header {
 	height:113px;
@@ -186,7 +186,7 @@ body {
 	width:151px;
 	height:21px;
 	padding: 5px 15px 5px 11px;
-	margin:10px 0px 22px 0px;
+	margin:4px 0px 22px 0px;
 	z-index:10;
 	position:relative;
 }
@@ -503,7 +503,8 @@ width:400px;
 	//background:#ce0000;
 	//background:#ba0407;
 	//background:#ec2b00;
-	background:#ec4700;
+	//background:#ec4700;
+	background:#fa4700;
 	border-radius: 10px;
 	border: 6px outset #fff;
 }
@@ -705,7 +706,7 @@ ul.list-posts li.case-item:last-child{
 }
 #footer_wrapper {
 	width:100%;
-	background:#3e3e3e url(images/footer_bg.png) 0px 5px repeat-x; /* tem a propria linha vermelha*/
+	background:#000 url(images/footer_bg.png) 0px 5px repeat-x; /* tem a propria linha vermelha*/
 	position:relative;
 	padding-top:215px;
 	height:30px; /*tamanho do background escuro do rodapé*/
