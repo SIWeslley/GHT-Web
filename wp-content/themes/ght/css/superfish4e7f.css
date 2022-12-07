@@ -97,15 +97,24 @@
 }
 
 .sf-menu ul li {
+	/*background: #C13B3E;*/
 	background:  #ff661a;
 	border-bottom:1px solid #FFF;
 	margin-right:0px;
 	text-transform: none;
 }
 
+/*.sf-menu ul li.current-menu-item {
+	/*background: #711e20;*/
+	/*background:#411e20;
+}*/
 .sf-menu ul li a {
 	text-transform: none;
 }
+/*
+.sf-menu ul li:last-child {
+	border-bottom:none;
+}*/
 
 /*2*/
 .sf-menu ul li:first-child.menu-item-has-children {
@@ -134,10 +143,18 @@
 	transition: none;
 }
 
+/*
+.sf-menu li ul li.current-menu-parent ul.sub-menu li{
+	background:#711e20;
+	/*background:#711e20;*/
+/*}*/
+
 .sf-menu li ul li.current-menu-parent ul.sub-menu li.current-menu-item, .sf-menu li ul li.current-menu-parent{
 	background:#800000;
 }
-
+/*.sf-menu li ul li.current-menu-parent ul li:hover{
+	background:#411e20;
+}*/
 .sf-menu li ul li ul.sub-menu li:hover{
 	background:red;
 }
@@ -172,20 +189,17 @@
 	border-top: 3px solid white;
 	border-bottom: 3px solid white;
 }
-#header_wrapper{ /*Fixa cabecalho*/
-	position: fixed;
-}
 
-.col_2.left.cat_info h1.cat_title {
-	animation: slideToRight 1s;
-}
-
-#eExtratos:target, #eFaturas:target, #doc2go:target, #eReports:target{
+#extratos:target, #faturas:target, #doc2go:target, #reports:target{
     animation: highlight 2s;
 }
 
 img.block.right {
 	animation: slideToLeft 1s;
+}
+
+.col_2.left.cat_info h1.cat_title {
+	animation: slideToRight 1s;
 }
 
 @keyframes highlight {
@@ -218,7 +232,7 @@ img.block.right {
     transform: translateX(0%);
   }
 }
-	
+
 #menu-main-nav{
 	margin-top:-3px;
 }
