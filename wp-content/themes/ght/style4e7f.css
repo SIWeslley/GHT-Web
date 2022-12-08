@@ -258,9 +258,10 @@ body {
 	top:180px;
 	height:140px;
 	width:450px;
-	padding: 10px 50px 35px 30px;
+	padding: 0px 20px 35px 10px;
 	background:#1e4594;
-	border: 4px outset #999;
+	//opacity: 0.8;
+	border: 2px outset #999;
 	box-shadow: 10px 5px 5px grey;
 	border-radius:5px;
 }
